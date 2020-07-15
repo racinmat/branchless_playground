@@ -56,3 +56,5 @@ collect("oh, hi mark!") .- 32 .* ((collect("oh, hi mark!") .>= 'a') .& (collect(
 
 @code_native to_upper("oh, hi mark!")
 @code_native to_upper_native("oh, hi mark!")
+@code_native to_upper_branchless("oh, hi mark!")
+@code_native to_upper_branchless_vec("oh, hi mark!")
